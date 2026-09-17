@@ -1,6 +1,6 @@
 # MG-PGSPFL
 
-**MG-PGSPFL** is a federated learning model for event sequence prediction: given a user's visit history across multiple clients, it predicts the event set of the next visit without sharing raw data. The model uses a dual classification head with frequency-weighted aggregation, and is trained with dual-level regularization.
+**MG-PGSPFL** is a federated learning model for event sequence prediction: given a user's visit history, it predicts the event set of the next visit without sharing raw data. The model uses a hierarchical information granule structure with frequency-aware differential granule aggregation, and is trained with dual-level regularization.
 
 ## Repository Structure
 
